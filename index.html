@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VbodID | TopUp Game Favoritmu dengan Mudah dan Cepat!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loader-container" id="loaderContainer">
+        <div class="loader" role="alert" aria-live="assertive"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Vbod-ID</div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#topup-form">TopUp</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>TopUp Game Favoritmu dengan Mudah dan Cepat!</h1>
+            <p>Instant Delivery, Reliable, and Affordable</p>
+            <button id="theme-toggle">Toggle Theme</button>
+            <a href="#topup-form" class="btn">Top-Up Sekarang</a>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <div class="container">
+            <h2>Pilih Game Anda</h2>
+            <div class="game-grid">
+                <div class="game-item">
+                    <img src="https://imgcdn.espos.id/@espos/images/2022/09/14Mobile-Legends-Popculture.id_.jpg" alt="Mobile Legends">
+                    <h3>Mobile Legends</h3>
+                </div>
+                <div class="game-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOh202azhaRlzkpFaXCFywLIfUKUGMMdK3g&s" alt="Free Fire">
+                    <h3>Free Fire</h3>
+                </div>
+                <div class="game-item">
+                    <img src="https://www.starjogja.com/assets/2020/05/games-pubg.jpg" alt="PUBG  Mobile">
+                    <h3>PUBG Mobile</h3>
+                </div>
+                <div class="game-item">
+                    <img src="https://awsimages.detik.net.id/visual/2020/10/21/genshin-impact-ist_169.jpeg?w=650" alt="Genshin Impact">
+                    <h3>Genshin Impact</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="topup-form" class="topup-form">
+        <div class="container">
+            <h2>Top-Up Sekarang</h2>
+            <form id="topupForm">
+                <div class="form-group">
+                    <label for="game">Pilih Game:</label>
+                    <select id="game" required>
+                        <option value="" disabled selected>Pilih game</option>
+                        <option value="mobile-legends">Mobile Legends</option>
+                        <option value="free-fire">Free Fire</option>
+                        <option value="pubg">PUBG Mobile</option>
+                        <option value="genshin-impact">Genshin Impact</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="player-id">ID Pemain:</label>
+                    <input type="text" id="player-id" placeholder="Masukkan ID pemain" required>
+                </div>
+                <div class="form-group">
+                    <label for="amount">Jumlah Top-Up:</label>
+                    <select id="amount" required>
+                        <option value="" disabled selected>Pilih jumlah</option>
+                        <option value="50">50 Diamonds</option>
+                        <option value="100">100 Diamonds</option>
+                        <option value="200">200 Diamonds</option>
+                        <option value="500">500 Diamonds</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="payment-method">Metode Pembayaran:</label>
+                    <select id="payment-method" required>
+                        <option value="" disabled selected>Pilih metode pembayaran</option>
+                        <option value="gopay">Gopay</option>
+                        <option value="dana">Dana</option>
+                        <option value="bank-transfer">Transfer Bank</option>
+                        <option value="pulsa">Pulsa</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Top-Up</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Apa Kata Mereka</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile Photo" class="profile-photo">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <p>"Top-up di GameTopUp sangat cepat dan mudah! Saya sangat puas!"</p>
+                    <p><strong>- Andi</strong></p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Profile Photo" class="profile-photo">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <p>"Pelayanan yang sangat baik dan harga yang terjangkau. Sangat direkomendasikan!"</p>
+                    <p><strong>- Budi</strong></p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="https://randomuser.me/api/portraits/men/17.jpg" alt="Profile Photo" class="profile-photo">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <p>"Saya suka cara kerja GameTopUp, semua prosesnya sangat transparan!"</p>
+                    <p><strong>- Akmal</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vbod-ID</h3>
+                    <p>Layanan top-up game terpercaya dan tercepat di Indonesia.</p>
+                    <p>&copy; 2024 Vbod-ID. All rights reserved.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#topup-form">Top-Up</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@vbod869.com</p>
+                    <p>Phone: +62 123 456 7890</p>
+                    <p>Address: Jl. Game Street No. 123, Jakarta, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <h3>Terima Kasih!</h3>
+            <p>Top-Up Anda sedang diproses. Silakan tunggu sebentar.</p>
+            <button class="btn" id="closeModal">Tutup</button>
+        </div>
+    </div>
+
+    <div class="scroll-to-top" id="scrollToTop">
+        &#9650;
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
